@@ -1,0 +1,228 @@
+
+*{
+    margin: 0px
+
+}
+body{
+    background: gray
+}
+
+#container{
+    width: 70%;
+    width: 1100px;
+    margin: 0% auto;
+    border: 1px solid black;
+
+}
+
+h1{
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    border-bottom: 3px dashed black
+}
+
+
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+footer:{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px
+    line-height: 50px ;
+
+}
+
+h2{
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-bottom: 5px;
+    
+}
+
+h4{
+    color: black;
+    size: 50px;
+    
+}
+#promo1{
+    color: tomato;
+}
+/*seccion promociones*/
+
+.promo1 p:hover{
+    height: 100px;
+    background-color: red;
+}
+
+#titulo2{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 35px;
+    
+}
+#titulo3{
+    color: black;
+}
+
+#titulo4{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 35px;
+}
+#ti1{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 25px;
+}
+#ti2{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 25px;
+}
+#ti3{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 25px;
+}
+#ti4{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 35px;
+}
+#ti5{
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 35px;
+    
+}
+
+/*transiciones en css*/
+.ti1:hover{
+    height: 200px;
+
+}
+
+.flex-container{
+    border: 1px solid black;
+    background: #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+    
+    
+
+}
+
+.caja{
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family:´courier 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+    float: left;
+
+}
+.c1{
+    background: lightblue;
+}
+.c2{
+    background: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px 15px;
+    width: 150px;
+    height: 150px;
+    transform: translate(150px,-170px);
+}
+.c3{
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px 15px;
+    width: 150px;
+    height: 150px;
+    transform: translate(150px,-170px);
+}
+
+.hamburguesa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+    width: 100vw;
+    max-width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    border: 5px groove #000;
+
+    background-image: linear-gradient(to top, red,black);
+
+
+}
+/*transform skew*/
+.c1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+
+    margin: 20px 15px;
+    width: 150px;
+    height: 150px;
+    transform: translate(10px, -20px);
+
+}
+#promo1
+    animation-name: hamburguesa;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+
+@keyframes identifier {
+    
+}{
+0%{
+    transform: scale(.5);
+    border-radius: 100%;
+}    
+50%{
+    transform: scale(1);
+}
+100%{
+    transform: scale(1);
+}
+}
+
+
+
